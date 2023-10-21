@@ -1,0 +1,21 @@
+{
+    "version": 8,
+    "name": "Explorer Grid",
+    "sources": {
+      "explorer": {
+        "type": "vector",
+        "tiles": ["https://zod.github.io/explorer-grid/explorer-grid.mvt"],
+        "minzoom": 11,
+        "maxzoom": 11
+      }
+    },
+    "layers": [
+      {
+        "id": "grid",
+        "type": "line",
+        "source": "explorer",
+        "source-layer": "grid",
+        "paint": {"line-color": "#ff0000", "line-width": 1}
+      }
+    ]
+  }
