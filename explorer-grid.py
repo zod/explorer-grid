@@ -20,13 +20,11 @@ def features():
                 (x * GRID_STEP, y * GRID_STEP),
                 (x * GRID_STEP, (y + 1) * GRID_STEP),
                 ((x + 1) * GRID_STEP, (y + 1) * GRID_STEP),
-                ((x + 1) * GRID_STEP, y * GRID_STEP),
-                (x * GRID_STEP, y * GRID_STEP),
             ]
             polygon = ", ".join(
                 [" ".join([str(coordPart) for coordPart in coord]) for coord in coords]
             )
-            wkt = f"POLYGON (({polygon}))"
+            wkt = f"LINESTRING ({polygon})"
             feature = {
                 "geometry": wkt,
                 "properties": {},
