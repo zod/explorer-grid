@@ -5,8 +5,8 @@ VeloViewer Explorer Grid overlay with single Mapbox Vector Tile (MVT) for all zo
 
 # Demos
 
-* [Leaflet](https://zod.github.io/explorer-grid/leaflet.html) (as overlay)
-* [Maplibre GL JS](https://zod.github.io/explorer-grid/maplibre.html) (only grid, because maplibre doesn't allow several maps)
+* [Leaflet](https://zod.github.io/explorer-grid/leaflet.html)
+* [Maplibre GL JS](https://zod.github.io/explorer-grid/maplibre.html)
 
 # Similar Projects
 
